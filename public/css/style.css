@@ -1,0 +1,687 @@
+body{
+
+	background:  #f1f1f1;
+	font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+}
+
+.navbar-default{
+	background: #103f88;
+	color:#fff;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+}
+.error {color: red;}
+
+.alert{
+	padding: 5px;
+}
+
+#progress-tab{
+
+}
+
+#progress-tab tr td{
+	border: 1px solid #fff;
+	background: #f1f1f1;
+	color: #fff;
+	padding: 2px;
+}
+
+.stay_free_room{
+	background: #09a31b;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 4px;
+	max-width: 100px;
+}
+
+
+.stay_free_room:hover{
+	background: #037a11;
+	color: #fff;
+	text-decoration:none;
+}
+
+.stay_free_room small{
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.stay_reserved_room{
+	background: #febf31;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 4px;
+	max-width: 100px;
+}
+
+.stay_reserved_room:hover{
+	background: #ef9d2b;
+	color: #fff;
+	text-decoration:none;
+}
+
+.stay_reserved_room small{
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.stay_occuped_room{
+	background: #e52e2b;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 4px;
+	max-width: 100px;
+}
+
+.stay_occuped_room:hover{
+	background: #d12323;
+	color: #fff;
+	text-decoration:none;
+}
+
+.stay_occuped_room small{
+	font-size: 10px;
+	font-weight: normal;
+}
+
+
+
+
+.container{
+	width: 95%;
+}
+.container-content{
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.listTitle{
+	font-size: 18px;
+	font-weight: bold;
+}
+hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.green-status{
+	margin-bottom: -5px;
+	display: inline-block;
+	border: 15px solid green;
+	border-radius: 15px;
+}
+
+.yellow-status{
+	margin-bottom: -5px;
+	display: inline-block;
+	border: 15px solid yellow;
+	border-radius: 15px;
+}
+
+.red-status{
+	margin-bottom: -5px;
+	display: inline-block;
+	border: 15px solid red;
+	border-radius: 15px;
+}
+
+.navbar-brand {
+	color:#fff !important;
+	font-weight: bold;
+
+}
+
+.ticketNb_a{
+	font-size: 11px;
+	background: #333;
+	padding: 5px;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.article_table_zone{
+	overflow: auto; max-height: 350px; background: #f1f1f1; font-size: 11px; padding: 5px;
+}
+.article_table_zone table{
+	width: 100%;
+}
+
+.article_table_zone table tr .first{
+	width: 30%;
+}
+
+.article_table_zone table tr td{
+	padding: 3px;
+}
+
+.article_table_zone table tr .othertd input{
+	width: 80px;
+	border-radius: 2px;
+	border: 1px solid #999;
+}
+
+.listTable tr th{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+	background: #87e0fd; /* Old browsers */
+	background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+}
+
+.listTable tbody tr td {
+	padding: 3px;
+
+}
+
+
+.listTable2 tr th{
+	background: #F9968E
+}
+
+.listTable2 tbody tr td {
+	padding: 3px;
+
+}
+
+.listTable-express tr th{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+	background: #999; /* Old browsers */
+	color: #fff;
+
+}
+
+#optionAmoutId{
+	display: block;
+	position: absolute;
+	font-size: 23px;
+	margin-left: 500px;
+	margin-top: 35px;
+	padding: 5px;
+	background: #f1f1f1;
+
+}
+
+#optionAmoutIdtitle{
+	display: block;
+	position: absolute;
+	margin-left: 500px;
+
+}
+
+.opLink{
+	background: #636B6F;
+	position: absolute;
+	margin: -5px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.opLink:hover{
+	background: #f1f1f1;
+}
+
+.glyphicon{
+	font-size: 0px !important;
+}
+
+.well{
+	padding: 15px 2;
+	margin:10px 0;
+	border:1px solid #fff;
+}
+
+
+
+#amountInformation{
+	padding: 10px;
+	background: #f1f1f1;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#amountInformation #cost-span{
+	padding: 5px;
+	background: blue;
+	color: yellow;
+}
+
+.passcontent1{
+	max-height: 650px;
+	overflow-y: auto;
+}
+.passcontent2{
+	max-height: 750px;
+	overflow-y: auto;
+}
+
+.total_label{
+	padding: 5px;
+	color: red;
+	background: #fff ;
+	border: 1px solid red;
+	border-radius: 3px;
+}
+
+.paye{
+	background:green;
+	font-size: 11px;
+	padding: 1px 3px;
+	color: #fff;
+	border-radius: 2px;
+}
+.n-paye{
+	background:red;
+	font-size: 11px;
+	padding: 1px 3px;
+	color: #fff;
+	border-radius: 2px;
+}
+
+.mark{
+	background: #f7e5c3 ;
+}
+.mark a{
+	color: #d45222;
+	font-weight: bold;
+}
+
+.appTitle{
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+
+.navbar-left{
+	margin-top: 10px;
+	margin-left: 28%;
+}
+
+.barre{
+	text-decoration: line-through;
+}
+
+/* Home style */
+
+.pass{
+	background: #8bf9cc;
+	padding: 100px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	float: left;
+	margin-right: -30px;
+	margin-top: 50px;
+
+}
+.stay{
+	background: #b7e4f4;
+	padding: 150px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	float: left;
+	z-index:1000;
+	margin-right: -30px;
+}
+
+.bar{
+	background: #fcd78c;
+	padding: 100px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	float: left;
+margin-top: 50px;
+	z-index: 99;
+}
+
+
+.stay-sidebar{
+	background: #f1f1f1;
+	border-radius: 10px;
+   box-shadow: 2px 1px 5px 1px #333;
+	padding: 15px;
+}
+
+.stay-sidebar a{
+	width: 95%;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-header{
+	border-top-right-radius: 5px;
+	border-top-left-radius:5px;
+	color: #fff;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7ca7c9+0,a9cbe5+100,2989d8+100,1e5799+100 */
+background: #7ca7c9; /* Old browsers */
+background: -moz-linear-gradient(left, #7ca7c9 0%, #a9cbe5 100%, #2989d8 100%, #1e5799 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #7ca7c9 0%,#a9cbe5 100%,#2989d8 100%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #7ca7c9 0%,#a9cbe5 100%,#2989d8 100%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ca7c9', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+}
+
+.modal-footer{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius:5px;
+	background:#4B5468 ;
+}
+
+.form-control{
+	/*background: #f1f1f1;
+
+	border:0px*/
+	font-size: 14px;
+	border-radius: 2px;
+	box-shadow: none;
+
+}
+
+.form-control:focus {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,efe07f+100 */
+background: #F8FCA9 !important; /* Old browsers */
+box-shadow: none;
+
+}
+
+#tab_logic thead th {
+	background: #ccc;
+}
+
+.mod-option{
+	background: #fff;
+	width:98%;
+	border-radius:5px;
+	padding: 15px;
+	font-size: 1em;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: #fff;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+    background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+    background-color: #427fed;
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card-4{
+    background: url("../../public/images/home-panel-bg-4.jpg");
+      background-size: cover;
+    height: 135px;
+}
+
+ .card-1{
+    background: url("../../public/images/home-panel-bg-1.jpg");
+    background-size: cover;
+    height: 135px;
+}
+
+.card-2{
+    background: url("../../public/images/home-panel-bg-2.jpg");
+    background-size: cover;
+    height: 135px;
+}
+ .card-3{
+    background: url("../../public/images/home-panel-bg-3.jpg");
+      background-size: cover;
+    height: 135px;
+}
+
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}

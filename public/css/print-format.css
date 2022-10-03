@@ -1,0 +1,92 @@
+body{
+  font-family: Arial;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+}
+
+#impression{
+  background: #999; padding: 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #999;
+  cursor: pointer;x
+}
+.box{
+ border: 1px solid #999;
+ border-radius: 5px;
+ padding: 5px;
+ width: 400px;
+}
+
+#impression:hover{
+  background: #333; padding: 5px 15px;
+}
+
+#bill-head{
+  background: #f1f1f1;
+  padding: 1%;
+  border-radius: 3px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  margin-bottom: 5px;
+  width: 98%;
+}
+
+#operator-client{
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1%;
+  margin-bottom: 5px;
+
+}
+
+#facture{
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px;
+  font-weight: bold;
+  margin: 0 2px;
+  color: #13367c;
+}
+
+#table-product{
+  width: 100%;
+  background: #f1f1f1;
+}
+
+#itemslist{
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#itemslist table{
+  width: 100%;
+  border-collapse: collapse;
+
+    font-size: 0.9em;
+}
+
+#itemslist table .t-head td{
+   padding-left: 2px;
+    font-weight: bold;
+
+}
+
+#itemslist table .t-head{
+   border-bottom: 1px solid #333;
+}
+
+#div-mcf{
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#div-mcf table{
+
+  border-collapse: collapse;
+ width: 100%;
+ font-size: 0.8em;
+}
